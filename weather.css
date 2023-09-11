@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./clouds-summer-weather-4k_1540136727.jpg);
+  background-size: cover;
+  background-repeat: 1;
+  
+}
+.d1 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+input {
+  width: 300px;
+  height: 50px;
+  font-size: x-large;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button {
+  width: 300px;
+  height: 50px;
+  font-size: x-large;
+}
+
+.icon {
+  border-radius: 50%;
+  /* border: 1px solid whitesmoke; */
+  /* background-color: rgb(28, 30, 58); */
+  background-size: contain;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 150px;
+  height: 150px;
+}
+.des {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #cff3ff; */
+  font-size: x-large;
+  border-top-left-radius:4% ;
+  border-top-right-radius:4% ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 430px;
+  gap: 200px;
+  font-size: larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  /* background-color: #cff3ff; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.d2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 30px;
+}
+.sun {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
